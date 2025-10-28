@@ -1,0 +1,38 @@
+.height_1 {
+    height: 80px;
+}
+
+.height_2 {
+    height: 200px;
+}
+
+.height_3 {
+    height: 250px;
+}
+
+.width_1 {
+    width: 200px;
+}
+
+.medida_logo {
+    height: 80px;
+    width: 160px;
+}
+
+.gris {
+    background-color: gray;
+    color: black;
+}
+
+.azul {
+    background-color: #029cdc;
+}
+
+.navbar-collapse {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.centrado {
+    text-align: center;
+}
