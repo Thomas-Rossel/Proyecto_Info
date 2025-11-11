@@ -10,6 +10,10 @@
     height: 150px;
 }
 
+.height_4 {
+    height: 500px;
+}
+
 .width_1 {
     width: 200px;
 }
@@ -17,6 +21,11 @@
 .medida_logo {
     height: 80px;
     width: 160px;
+}
+
+.medida_logo2 {
+    height: 400px;
+    width: 400px;
 }
 
 .gris {
@@ -43,4 +52,26 @@
   font-weight: 500;
   margin: 0 5px;
   cursor: pointer;
+}
+
+.espaciado {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.marginlt {
+    margin-top: 2rem;
+    margin-left: 5rem;
 }
