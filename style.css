@@ -18,14 +18,41 @@
     width: 200px;
 }
 
+.altura-max {
+    height: 100%;
+}
+
+@font-face {
+    font-family: "Normal";
+    src: url("DM_Serif_Text/DMSerifText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cursiva";
+    src: url("DM_Serif_Text/DMSerifText-Italic.ttf") format("truetype");
+}
+
+.texto-normal {
+    font-family: 'Normal';
+}
+
+.cursiva {
+    font-family: 'Cursiva';
+}
+
 .medida_logo {
     height: 80px;
     width: 160px;
 }
 
 .medida_logo2 {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
+}
+
+.medida_fondo {
+    height: 350px;
+    Width: 600px;
 }
 
 .gris {
@@ -54,29 +81,16 @@
   cursor: pointer;
 }
 
-.espacio-abajo {
-    margin-bottom: 40px;
-}
-
-.espacio-arriba {
-    margin-top: 40px;
-}
-
 .contenedor {
     display: flex;
     justify-content: center; 
     align-items: center;     
-    height: 100vh;           
+    height: 100%;           
 }
 
 .marginlt {
     margin-top: 2rem;
     margin-left: 5rem;
-}
-
-.trabajo {
-    height: 200px;
-    width: 100%;
 }
 
 .color-tr {
