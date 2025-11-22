@@ -1,0 +1,106 @@
+/* Alturas generales */
+.height_1 {
+    height: 80px;
+}
+
+.height_2 {
+    height: 200px;
+}
+
+.height_3 {
+    height: 150px;
+}
+
+.height_4 {
+    height: 500px;
+}
+
+.width_1 {
+    width: 200px;
+}
+
+/* Tipografías personalizadas */
+@font-face {
+    font-family: "Normal";
+    src: url("DM_Serif_Text/DMSerifText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cursiva";
+    src: url("DM_Serif_Text/DMSerifText-Italic.ttf") format("truetype");
+}
+
+.texto-normal {
+    font-family: 'Normal';
+}
+
+.cursiva {
+    font-family: 'Cursiva';
+}
+
+/* Logos */
+.medida_logo {
+    height: 80px;
+    width: 160px;
+}
+
+.medida_logo2 {
+    height: 500px;
+    width: 500px;
+}
+
+/* Colores base */
+.gris {
+    background-color: gray;
+    color: black;
+}
+
+.azul {
+    background-color: #029cdc;
+}
+
+/* Navbar cuando se despliega en celular */
+.navbar-collapse {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+/* Otros estilos útiles */
+.centrado {
+    text-align: center;
+}
+
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginlt {
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+/* Cards grises que usás para fondos */
+.color-tr {
+    background-color: #646464;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Títulos centrados */
+.titulo {
+    text-align: center;
+}
+
+/* Ajuste para alturas completas */
+.altura-max {
+    height: 100%;
+}
